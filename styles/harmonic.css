@@ -12,3 +12,6 @@ img {
     display: block;
     margin: 0 auto;
   }
+div {
+  display: inline-block
+}
