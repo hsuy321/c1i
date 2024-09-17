@@ -12,6 +12,11 @@ img {
     display: block;
     margin: 0 auto;
   }
-images {
-  display: inline-block
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
