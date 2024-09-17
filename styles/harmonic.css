@@ -13,11 +13,11 @@ img {
     margin: 0 auto;
   }
 
-  .row {
+.row {
     display: flex;
   }
   
-  .column {
+.column {
     flex: 50%;
     padding: 1px;
   }
