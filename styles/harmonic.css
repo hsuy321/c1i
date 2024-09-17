@@ -12,12 +12,3 @@ img {
     display: block;
     margin: 0 auto;
   }
-
-.row {
-    display: flex;
-  }
-  
-.column {
-    flex: 25%;
-    padding: 0px;
-  }
