@@ -12,3 +12,6 @@ img {
     display: block;
     margin: 0 auto;
   }
+.gif:hover {
+  transform: scale (2.00)
+}
