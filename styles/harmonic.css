@@ -12,6 +12,12 @@ img {
     display: block;
     margin: 0 auto;
   }
-.gif:hover {
-  transform: scale (2.00)
+.card:hover {
+  transform: scale(5.0);
+}
+a {
+  color: slategray;
+}
+a:hover{
+  color: black
 }
