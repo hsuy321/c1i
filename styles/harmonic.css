@@ -12,12 +12,22 @@ img {
     display: block;
     margin: 0 auto;
   }
-.card:hover {
-  transform: scale(5.0);
-}
 a {
   color: slategray;
 }
 a:hover{
   color: black
+}
+.wrapper {
+  display: flex
+}
+.wrapper {
+  position: absolute;
+  top:  50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  flex-direction: column;
+}
+.card:hover {
+  transform: scale(5.0);
 }
