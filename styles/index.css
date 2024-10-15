@@ -41,8 +41,9 @@ li {
 }
 
 .dropdown {
-  position: relative bottom;
+  position: relative;
   display: inline-flex;
+  flex-direction: row;
 }
 
 .dropdown-content {
