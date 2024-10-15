@@ -76,3 +76,15 @@ img {
 .map {
   max-width: 100%;
 }
+
+.wrapper {
+  display: flex
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+}
