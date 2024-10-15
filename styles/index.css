@@ -33,3 +33,50 @@ li {
   display: inline-flex;
   justify-content: center
 }
+
+.dropbtn {
+  color: slategray;
+  background-color: white;
+  border: 1px dashed slategray;
+}
+
+.dropdown {
+  position: relative bottom;
+  display: inline-flex;
+}
+
+.dropdown-content {
+  display: none;
+  position: center;
+  background-color: white;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: gainsboro;
+}
+
+img {
+  max-width: 100%
+}
+
+.map {
+  max-width: 100%;
+}
+
+input {
+  text-align: right;
+}
