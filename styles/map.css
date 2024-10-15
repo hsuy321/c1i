@@ -34,8 +34,9 @@ a:hover {
 }
 
 .dropbtn {
-  color: black;
-  border: none;
+  color: slategray;
+  background-color: white;
+  border: 1px dashed slategray;
 }
 
 .dropdown {
@@ -46,7 +47,7 @@ a:hover {
 .dropdown-content {
   display: none;
   position: center;
-  background-color: #f1f1f1;
+  background-color: white;
 }
 
 .dropdown-content a {
