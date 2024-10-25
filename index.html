@@ -8,7 +8,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
     </head>
-    <p>
+    <p id="myP">
     <div class="wrapper">
         <ul>
             <li><a href="map.html">enter</a></li>
@@ -19,17 +19,34 @@
                     <a href="https://trafficcamphotobooth.com/">traffic cam photobooth</a>
                     <a href="https://www.instagram.com/hsuworks/">my other work</a>
                 </div>
+            </div>
         </ul>
-        <br>
-        an exploration into finding myself through traffic cameras
-        <br>
-        <br>
+        <p id="myP2">
+            an exploration into finding myself through traffic cameras
+        </p>
         <img
             src="https://web.archive.org/web/20090820095450/http://geocities.com/atheybarrierconstructions/images/globe.gif">
+        <br>
+        <button id="theme" class="theme" ; onclick="Dark()"><u>the lights</u></button>
         </p>
-
     </div>
 
+    <script>
+        function Dark() {
+            document.body.style.backgroundColor = "black"
+            document.getElementById("myP2").style.color = "white"
+        }
+    </script>
+
+    <script>
+        var flag = true;
+        function Dark() {
+            document.body.style.backgroundColor = flag ? "black" : "white";
+            document.getElementById("myP2").style.color = flag ? "white" : "black";
+            flag = !flag;
+        }    
+    </script>`
+
 </html>
-<script src="scripts/main.js"></script>
+
 </body>
