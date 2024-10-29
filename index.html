@@ -27,12 +27,12 @@
         <img
             src="https://web.archive.org/web/20090820095450/http://geocities.com/atheybarrierconstructions/images/globe.gif">
         <br>
-        <button id="theme" class="theme" ; onclick="Dark()"><u>the lights</u></button>
+        <button id="theme" class="theme" ; onclick="Black()"><u>the lights</u></button>
         </p>
     </div>
 
     <script>
-        function Dark() {
+        function Black() {
             document.body.style.backgroundColor = "black"
             document.getElementById("myP2").style.color = "white"
         }
@@ -40,7 +40,7 @@
 
     <script>
         var flag = true;
-        function Dark() {
+        function Black() {
             document.body.style.backgroundColor = flag ? "black" : "white";
             document.getElementById("myP2").style.color = flag ? "white" : "black";
             flag = !flag;

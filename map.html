@@ -29,6 +29,25 @@
             <iframe class="map" width="440" height="300" style="border:0" loading="lazy" allowfullscreen
                 src="https://www.google.com/maps/embed/v1/view?zoom=10&center=40.7128%2C-74.0060&key=AIzaSyAcvzfkQ7faB_jq1GnI9MZcTdxhHe3kVIc"></iframe>
         </div>
+        <p id="myP2">
+            <button id="theme" class="theme" ; onclick="Black()"><u>the lights</u></button>
+        </p>
     </div>
-    <script src="scripts/main.js"></script>
+
+    <script>
+        function Black() {
+            document.body.style.backgroundColor = "black"
+            document.getElementById("myP2").style.color = "white"
+        }
+    </script>
+
+    <script>
+        var flag = true;
+        function Black() {
+            document.body.style.backgroundColor = flag ? "black" : "white";
+            document.getElementById("myP2").style.color = flag ? "white" : "black";
+            flag = !flag;
+        }    
+    </script>`
+
 </body>

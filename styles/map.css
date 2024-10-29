@@ -147,3 +147,9 @@ img {
 input {
   text-align: right;
 }
+
+.theme {
+  color: slategray;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
