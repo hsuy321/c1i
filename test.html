@@ -1,13 +1,40 @@
 <!doctype html>
 <html>
-    <head>
-        <link href="styles/harmonic.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div class="wrapper">
-            <div class="box1"><img src="images/14_Union.gif"></div>
-            <div class="box2"><img src="images/23_2.gif"></div>
-            <div class="box3"><img src="images/34_Park.gif"></div>
-        </div>
-    </body>
+
+<head>
+    <link href="styles/harmonic.css" rel="stylesheet" />
+</head>
+
+<body>
+    <p>
+        <canvas id="canvas" width="150" height="150"></canvas>
+        <script type="application/javascript">
+            function draw() {
+                const canvas = document.getElementById("canvas");
+                if (canvas.getContext) {
+                    const ctx = canvas.getContext("2d");
+
+                    ctx.fillStyle = "rgb(200 0 0)";
+                    ctx.fillRect(56, 10, 50, 50);
+
+                    ctx.fillStyle = "rgb(0 0 200 / 50%)";
+                    ctx.fillRect(56, 30, 50, 50);
+
+                    ctx.fillStyle = "rgb(50 100 50 / 50%)";
+                    ctx.fillRect(56, 50, 50, 50);
+
+                    ctx.moveTo(90, 130);
+                    ctx.lineTo(95, 25);
+                    ctx.lineTo(150, 80);
+                    ctx.lineTo(205, 25);
+                    ctx.lineTo(210, 130);
+                    ctx.lineWidth = 15;
+                    ctx.stroke();
+                }
+            }
+            draw();
+        </script>
+    </p>
+</body>
+
 </html>
