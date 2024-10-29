@@ -15,7 +15,7 @@
   cursor: help;
   cursor: progress;
 
-  cursor: url("images/globe.png"), 0 0, pointer, auto;
+  cursor: url('images/globe.png'), 0 0, pointer, auto;
 }
 
 img {
