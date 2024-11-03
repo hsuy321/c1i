@@ -10,14 +10,6 @@
   text-align: center
 }
 
-* {
-  cursor: pointer;
-  cursor: help;
-  cursor: progress;
-
-  cursor: url('images/globe.png'), 0 0, pointer, auto;
-}
-
 img {
   display: block;
   margin: 0 auto;
