@@ -75,6 +75,41 @@ img {
 
 .map {
   max-width: 100%;
+  border: 1px dashed slategray;
+}
+
+.image-container {
+  position: relative;
+  /* set container to a relative position */
+  width: 100%;
+  /* set your desired width */
+  height: 100%;
+  /* set your desired height */
+  z-index: -1;
+}
+
+.button {
+  position: absolute;
+  /* set button to an absolute position */
+  top: 20%;
+  /* adjust the top position of the button */
+  left: 50%;
+  /* adjust the left position of the button */
+  transform: translate(-50%, -50%);
+  /* center the button */
+  z-index: 2;
+  /* set a higher z-index than the image */
+  background-color: #007bff;
+  /* set your desired background color */
+  color: #fff;
+  /* set your desired text color */
+  border: none;
+  /* remove button border */
+  border-radius: 10px;
+  padding: 0px 0px;
+  /* set your desired padding */
+  cursor: pointer;
+  /* change mouse cursor on hover */
 }
 
 .wrapper {
