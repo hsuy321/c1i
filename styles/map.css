@@ -88,7 +88,7 @@ img {
   z-index: -1;
 }
 
-.button {
+.seven {
   position: absolute;
   /* set button to an absolute position */
   top: 41%;
@@ -109,6 +109,19 @@ img {
   /* set your desired padding */
   cursor: pointer;
   /* change mouse cursor on hover */
+}
+
+.six {
+  position: absolute;
+  top: 20%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 0px 0px;
+  cursor: pointer;
 }
 
 .mapimg {
