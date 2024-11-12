@@ -124,6 +124,19 @@ img {
   cursor: pointer;
 }
 
+.five {
+  position: absolute;
+  top: 80%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 0px 0px;
+  cursor: pointer;
+}
+
 .mapimg {
   opacity: 0.75;
 }
