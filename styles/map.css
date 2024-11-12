@@ -91,7 +91,7 @@ img {
 .seven {
   position: absolute;
   /* set button to an absolute position */
-  top: 41%;
+  top: 45%;
   /* adjust the top position of the button */
   left: 55%;
   /* adjust the left position of the button */
@@ -135,6 +135,68 @@ img {
   border: none;
   padding: 0px 0px;
   cursor: pointer;
+}
+
+.four {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 0px 0px;
+  cursor: pointer;
+}
+
+.three {
+  position: absolute;
+  top: 27%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 0px 0px;
+  cursor: pointer;
+}
+
+.two {
+  position: absolute;
+  top: 38%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 0px 0px;
+  cursor: pointer;
+}
+
+.one {
+  position: absolute;
+  /* set button to an absolute position */
+  top: 41%;
+  /* adjust the top position of the button */
+  left: 55%;
+  /* adjust the left position of the button */
+  transform: translate(-50%, -50%);
+  /* center the button */
+  z-index: 2;
+  /* set a higher z-index than the image */
+  background-color: transparent;
+  /* set your desired background color */
+  color: #fff;
+  /* set your desired text color */
+  border: none;
+  /* remove button border */
+  padding: 0px 0px;
+  /* set your desired padding */
+  cursor: pointer;
+  /* change mouse cursor on hover */
 }
 
 .mapimg {
