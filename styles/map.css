@@ -88,6 +88,45 @@ img {
   z-index: -1;
 }
 
+.ten {
+  position: absolute;
+  top: 47%;
+  left: 86%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 0px 0px;
+  cursor: pointer;
+}
+
+.nine {
+  position: absolute;
+  top: 51%;
+  left: 81%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 0px 0px;
+  cursor: pointer;
+}
+
+.eight {
+  position: absolute;
+  top: 61%;
+  left: 74%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 0px 0px;
+  cursor: pointer;
+}
+
 .seven {
   position: absolute;
   /* set button to an absolute position */
