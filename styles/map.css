@@ -22,7 +22,7 @@
   z-index: 999;
   cursor: pointer;
   -webkit-transition-property: all;
-  -webkit-transition-duration: 0.1s;
+  -webkit-transition-duration: 0.05s;
   -webkit-transition-timing-function: ease;
 }
 
