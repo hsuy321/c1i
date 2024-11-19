@@ -10,6 +10,11 @@
   text-align: center
 }
 
+*::selection {
+  background-color: yellow;
+  color: black;
+}
+
 /* body {
   background: url("../images/map.png");
   background-size:100%
