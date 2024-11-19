@@ -18,7 +18,12 @@
 .text {
   width: 440px;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+}
+
+.maptext {
+  display: flex;
+  justify-content: center;
 }
 
 img {
