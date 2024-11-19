@@ -10,6 +10,17 @@
   text-align: center
 }
 
+*::selection {
+  background-color: yellow;
+  color: black;
+}
+
+.text {
+  width: 440px;
+  display: flex;
+  justify-content: space-between
+}
+
 img {
   display: block;
   margin: 0 auto;
