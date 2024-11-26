@@ -98,6 +98,13 @@ input {
   flex-direction: column;
 }
 
+.wrapper2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .theme {
   color: slategray;
   background-color: rgba(0, 0, 0, 0);

@@ -15,6 +15,10 @@
   color: black;
 }
 
+a {
+  text-decoration: none;
+}
+
 .mapimg {
   top: -50px;
   left: -35px;

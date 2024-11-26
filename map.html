@@ -11,7 +11,9 @@
 <body>
     <div class="wrapper">
         <ul>
-            <li><a href="index.html">main menu</a></li>
+            <li>
+                <button class="dropbtn"><a href="index.html">main menu</a>
+            </li></button>
             <li>
                 <div class="dropdown">
                     <button class="dropbtn">image view </button>
@@ -27,6 +29,10 @@
                         <a href="nine.html"><img src="images/Sutton_Meeker.gif" width="440" height="300"></a>
                         <a href="ten.html"><img src="images/Kosciuszko.gif" width="440" height="300"></a>
                     </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="about.html">about</a></button>
             </li>
         </ul>
         <br>
@@ -53,25 +59,5 @@
             <button class="one "><a href="one.html"><img class="mapimg" src="images/14_Union.gif" width="25px"
                         height="auto"></a></button>
         </div>
-        <p id="myP2">
-            <button id="theme" class="theme" ; onclick="Black()"><u>the lights</u></button>
-        </p>
-    </div>
-
-    <script>
-        function Black() {
-            document.body.style.backgroundColor = "black"
-            document.getElementById("myP2").style.color = "white"
-        }
-    </script>
-
-    <script>
-        var flag = true;
-        function Black() {
-            document.body.style.backgroundColor = flag ? "black" : "white";
-            document.getElementById("myP2").style.color = flag ? "white" : "black";
-            flag = !flag;
-        }    
-    </script>
 
 </body>
