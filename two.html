@@ -5,6 +5,7 @@
     <link href="styles/harmonic.css" rel="stylesheet" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <script src="imageMapResizer.min.js"></script>
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         </div>
         <br>
         <div class="card">
-            <img src="images/23_2.gif" alt="34_Park" width="440" height="300" class="center" />
+            <img src="images/23_2.gif" alt="34_Park" width="440" height="300" class="center" usemap="#two" />
         </div>
         <br>
         <div class="text">
@@ -22,6 +23,14 @@
             <a href="three.html">→</a>
         </div>
     </div>
+    <map name="two">
+        <area target="" alt="two" title="two" href="three.html" coords="267,215,287,239" shape="rect">
+    </map>
 </body>
+
+<script>
+    imageMapResize();
+</script>
+
 
 </html>
