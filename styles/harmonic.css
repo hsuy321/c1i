@@ -2,12 +2,12 @@
 
 * {
   z-index: 1;
-  font-family: "Inconsolata", monospace;
+  font-family: "Inconsolata",
+    monospace;
   font-size: 12px;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
   text-align: center
 }
 
@@ -48,7 +48,7 @@ a:hover {
 }
 
 .wrapper {
-  display: flex
+  display: flex;
 }
 
 .wrapper {
@@ -59,7 +59,11 @@ a:hover {
   flex-direction: column;
 }
 
-
+@media (max-width: 600px) {
+  .wrapper {
+    width: 100%
+  }
+}
 
 /* .card:hover {
   transform: scale(5.0);

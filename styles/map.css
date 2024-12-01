@@ -344,3 +344,9 @@ input {
   background-color: rgba(0, 0, 0, 0);
   border: none;
 }
+
+@media (max-width: 600px) {
+  .image-container {
+    visibility: hidden
+  }
+}
