@@ -345,7 +345,7 @@ input {
   border: none;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 912px) {
 
   .Mobile {
     display: initial;
@@ -357,7 +357,7 @@ input {
 
 }
 
-@media (min-width: 576px) {
+@media (min-width: 913px) {
   .Computer {
     display: initial;
   }
