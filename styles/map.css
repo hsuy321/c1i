@@ -32,8 +32,7 @@ a {
 
 /*change the number below to scale to the appropriate size*/
 .mapimg:hover {
-  transform: scale(5);
-
+  transform: scale(10);
 }
 
 /* body {
